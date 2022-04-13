@@ -10,6 +10,11 @@ package JavaGit;
  * @author ARNAUD KIMA
  */
 public class MesFonctions {
+
+    public MesFonctions() {
+    }
+    
+    
     
     public int minimum(int a, int b){
 		return Math.min(a,b);
