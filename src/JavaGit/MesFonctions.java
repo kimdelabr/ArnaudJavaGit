@@ -26,4 +26,16 @@ public class MesFonctions {
             return (n*factorielle(n-1));
     }
     
+    
+    public boolean estPalindrome(String ch){
+        String original=ch;
+        String reverse="";
+        int taille=original.length();
+        for(int i=taille-1;i>=0;i--)
+            {
+                reverse = reverse + original.charAt(i); 
+            }
+        return  original.equals(reverse);
+    }
+    
 }
