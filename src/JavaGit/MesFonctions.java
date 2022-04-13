@@ -11,4 +11,9 @@ package JavaGit;
  */
 public class MesFonctions {
     
+    public int minimum(int a, int b){
+		return Math.min(a,b);
+	}
+
+    
 }
